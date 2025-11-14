@@ -1,2 +1,11 @@
-env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+name: Release
+on:
+  push:
+    branches: [main]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
