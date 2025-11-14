@@ -19,13 +19,13 @@ module.exports = {
     [
       "@semantic-release/exec",
       {
-        prepareCmd: "zip -qq -r logseq-hitokoto-yiyan-${nextRelease.version}.zip dist README.md logo.svg LICENSE package.json"
+        prepareCmd: "zip -qq -r logseq-hitokoto-yiyan-v${nextRelease.version}.zip dist README.md logo.svg LICENSE package.json"
       },
     ],
     [
       "@semantic-release/github",
       {
-        assets: "logseq-hitokoto-yiyan-*.zip"
+        assets: ["logseq-hitokoto-yiyan-v*.zip"]
       }
     ]
   ]
