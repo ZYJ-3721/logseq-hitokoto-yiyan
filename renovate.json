@@ -1,0 +1,16 @@
+{
+  "extends": ["config:base"],
+  "schedule": ["before 1am on Monday"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "requiredStatusChecks": null
+    },
+    {
+      "matchPackageNames": ["@logseq/libs"],
+      "automerge": false,
+      "requiredStatusChecks": null
+    }
+  ]
+}
