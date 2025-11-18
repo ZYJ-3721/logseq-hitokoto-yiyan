@@ -4,6 +4,9 @@ Randomly display a sentence at the top of logseq.
 ## Demo
 ![](./demo.gif)
 
+## Install
+![](./install.gif)
+
 ## Settings
 ![](./settings.png)
 
