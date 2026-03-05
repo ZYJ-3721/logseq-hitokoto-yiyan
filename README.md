@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/ZYJ-3721/logseq-hitokoto-yiyan" alt="Logseq Logo">
+  <a href="https://github.com/ZYJ-3721/logseq-hitokoto-yiyan">
     <img src="./logo.svg" height="300"/>
   </a>
 </p>
